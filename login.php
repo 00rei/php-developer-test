@@ -49,7 +49,7 @@ if (isset($_GET['error']))
     </tr>
     <tr>
         <td>Пароль:</td>
-        <td><input type="text" name="password" value="" required></td>
+        <td><input type="password" name="password" value="" required></td>
     </tr>
     
     
