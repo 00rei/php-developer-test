@@ -1,0 +1,92 @@
+html, body { margin: 0; padding: 0; }
+
+body {
+    padding: 0;
+    font-size: 20px;
+    font-family: "Arial", serif;
+    background: rgba(226, 226, 226, 0.52);
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+tr {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+td, th {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 16px;
+}
+
+table.last-text-right > tbody > tr > td:last-child {
+    text-align: right;
+}
+
+table.table-row-underline > tbody > tr > td,
+table.table-row-underline > tbody > tr > th {
+    border-bottom: 1px solid black;
+}
+
+/*a {*/
+/*    background: green;*/
+/*}*/
+
+
+
+.bth-page {
+    border: none;
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+.bth-page:hover {
+    color: cornflowerblue;
+}
+
+.no-active, .no-active:hover {
+    color: black;
+    text-decoration: none;
+}
+a.no-active {
+    pointer-events: none;
+}
+input, select {
+    font-size: 18px;
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+
+.my-16{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.mx-16{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.title {
+
+    text-align: center;
+    line-height: 45px;
+    background: #c5c5c5;
+    margin-bottom: 16px;
+}
+.content {
+    width: fit-content;
+padding: 0;
+    margin: auto;
+    /*background: red;*/
+}
+
+.hello-admin {
+    text-align: right;
+    margin-right: 16px;
+}
