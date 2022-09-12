@@ -13,7 +13,7 @@ if (!isset($_POST['login']))
 
 // Get login and password
 $login = sanitizeString($_POST['login']);
-$password = sanitizeString($_POST['password']);
+$password = $_POST['password'];
 $error = '?error=';
 
 // Checking received data
